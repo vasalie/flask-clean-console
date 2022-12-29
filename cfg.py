@@ -12,3 +12,7 @@ HIDE_STATIC   = False
 
 # This need to be set to "True" when flask is behind a proxy like NGINX 
 PROXY         = False
+
+#  Add delay to routes
+DELAY_MAIN    = 0.15
+DELAY_CONT    = 0.1
